@@ -1,0 +1,78 @@
+  body{
+	   color: white;
+	   font-family:"Lucida Sans Unicode", sans-serif;  
+	   
+	   
+	   
+	   /*font-family é pra familia de ketras e tals, o bagulho da Arial,nao esqueça,primeiro o nome da fonte e em seguida o nome da familia,seja as serif, as sans-serif ou monospace.*/
+	   
+	   
+	   
+	   background-color: black;
+   }
+   h1{
+	   background-image:url(sobre-background.jpg);  
+	   
+	   
+	   /*Aqui,usando esse negocio aí,conseguiremos adicionar uma imagem de fundo,particularmente eu achei mais bonitinho testando com um fundo preto estrelado,ficou topp*/
+   }
+   
+   /*Aqui vamos nós pra mais um dia,essa aqui será sobre bordas...*/
+   
+   body{
+	   border-color:white; /*cor da borda*/
+	   border-style:solid; /*o estilo da borda*/
+	   border-width:3px;   /*a largura da borda*/
+    }
+	h4{
+		border-color:white;
+		border-style:groove;
+		border-width:3px;
+	  }
+	  
+	  /*Eu particularmente achei bonito a borda branca,esse teste lembrou a capa do death note,mas enfim, por ora só coonhecemos o solid como estilo e a largura,bom,recomendo 1px ou 4px, é uma largura confortavel,dependendo do uso é claro*/
+	 /* Bem,atualizando,existe outros tipos de estilo,são eles:
+	     
+	     dashed:Pontilhado, linhas pontilhadas e tals
+		 double:É como se fosse duas linhas,dois solids
+		 groove:É um solid mais grosso,bem mais grosso
+		  Tem muito mais mas por hora é tudo isso que sei,NÃO ESQUEÇA */
+		  
+		  
+		  
+		  /*Hoje vai ser sobre Espaamento,margem e dimensões.
+		   A ropriedade padding é para espaamento,define uma distancia limite entre o elemento,sua borda e seu respectivo elemento*/
+		   
+		   body{                  /*padding:10px 20px 15px 10px; É a forma simplificada */
+			  padding-top:10px;   /*Espaamento para cima */
+			  padding-right:20px; /*Espaamento para direito*/
+			  padding-bottom:15px; /*Espaamento para abaixo */
+			  padding-left:10px;   /*Espaçamento para a esquerda*/
+		   }
+		   
+		   /*Se deffinido apenas um valor em padding,o valor será atribuido a todas as direões.Se definido dois valores em padding,o primeiro será para cima e para baixo, o segundo para a direita e esquerda.Se definido quatro valores em padding,então a ordem será em horario: padding-top; padding-right;padding-bottom;padding-left. */
+		   
+		   /*A margin é tipo a padding, o que diferencia é que ela adiciona um espaço após o limite,um espaço além doo elemento. */
+		   
+		   p{                      /*margin: 10px 20px 15px 10px; É a forma simplificada */
+			  margin-top:10px;     /*Margem para cima     */
+              margin-right:20px;   /*Margem para direita  */ 
+			  margin-bottom:20px;  /*Margem  para baixo    */
+			  margin-left:10px;   /*Margem  para esquerda */
+		   }  
+			                       /* Colocando margin:0 auto; O navegador resolverá automaticamente a margem de acordo com o espaço disponivel da pagina */
+								   
+			
+ 
+             /*Dimensões de um elemento: height(altura),width(largura).*/
+
+             p{
+               height:0 auto; /*Altura*/
+               width: 0 auto; /* largura*/ euteamoduda24
+			 }			   
+			 
+			 
+			 .centroD{
+				 border: grey solid 3px;
+			 }
+			
